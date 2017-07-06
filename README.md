@@ -1,2 +1,4 @@
 ### PHPC
-PHP Compiler CMF - Content Management Framework. Система для разработки сайтов на PHP − простая, удобная, быстрая и надежная.
+PHP Compiler CMF - Content Management Framework.
+Система для разработки сайтов на PHP − простая, удобная, быстрая и надежная.
+Добавлена платежная система [a https://payeer.com/04806766](Payeer), зарегистрируете свой кошелек в этой платежной системе.
