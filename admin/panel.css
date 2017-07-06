@@ -1,0 +1,65 @@
+body,td,pre,input,textarea,select { font:11px tahoma; color:black; }
+body,table,tr,td,div,p,pre,ol,ul,li,hr,form { margin:0px; padding:0px; }
+table,td { border-collapse:collapse; border-spacing:0px; }
+table,img { border:0px solid black; }
+wbr { display:inline-block; }
+
+body { margin:10px; overflow-y:auto; background-color:#b0b0c0; color:#202040; }
+body.menu,body.head { margin:0px; background-color:#606090; }
+table.form,table.table,table.tree,table.prompt { border:1px solid #303060; background-color:#606090; }
+table.menu td,table.form td,table.tree td,table.prompt td { padding:4px 5px; }
+table.table td { border:1px solid #303060; padding:4px; }
+tr.header,tr.separator,tr.footer { background-color:#404078; }
+tr.auth { background-color:#606090; }
+tr.firstline { background-color:#c8c8e0; }
+tr.secondline { background-color:#b8b8d0; }
+tr.header td,tr.separator td,tr.footer td { font-weight:bold; color:#e0ffff; }
+table.hidden,table.hidden td { border:0px solid black; padding:0px; }
+
+a { text-decoration:none; color:#203080; }
+a.title { font-weight:bold; color:#202040; }
+a:hover { color:white; }
+body.menu a,body.head a { color:#e0e0f0; }
+body.menu a:hover,body.head a:hover { color:#ffff40; }
+tr.header a,tr.separator a,tr.footer a { text-decoration:underline; color:#e0ffff; }
+tr.header a.selected,tr.separator a.selected,tr.footer a.selected { color:#f0ffa0; }
+tr.header a:hover,tr.separator a:hover,tr.footer a:hover { color:#ffff40; }
+div.menugroup { font-weight:bold; padding:2px 5px; background-color:#404078; color:#e0ffff; }
+div.headline { font-weight:bold; }
+div.quote { border:1px solid #603060; background-color:#d0c0d0; }
+div.quote pre { font:12px courier new; padding:4px; overflow:auto; }
+div.formatted pre { font:12px courier new; }
+ol,ul { margin:0px 0px 0px 30px; }
+hr { border-color:#a0a0b0; }
+hr.menu { border-color:#404078; }
+hr.formatted { margin:4px 0px; }
+font.title,font.yes { font-weight:bold; }
+font.pattern { font:bold 13px verdana; }
+
+font.phpc_comment,font.phpc_tag,font.phpc_param,font.phpc_value { background-color:#c0c0d0; }
+font.right { font-weight:bold; color:#008050; }
+font.wrong { font-weight:bold; color:#a00050; }
+font.disabled { color:#686878; }
+font.original { color:#206050; }
+font.inherited { color:#7020a0; }
+font.nolink { color:#7078b0; }
+font.phpc_comment,font.html_comment { color:#686878; }
+font.phpc_tag,font.html_tag { color:#102080; }
+font.phpc_param,font.html_param { color:#206050; }
+font.phpc_value,font.html_value { color:#802070; }
+font.php_comment { color:#686878; }
+font.php_keyword { color:#202040; }
+font.php_default { color:#102080; }
+font.php_string { color:#802070; }
+
+input,select { width:350px; height:20px; }
+input.radio,input.checkbox { width:16px; height:16px; }
+input.authmember,input.toolbar,select.toolbar,select.actselect { width:200px; }
+input.button { width:80px; }
+input.cell,select.cell { width:100px; }
+input.order { width:40px; }
+input.actbutton { width:50px; }
+input.navigation1 { width:40px; font:15px webdings; }
+input.navigation2 { width:40px; font:bold 16px tahoma; }
+textarea,select.selector { width:350px; height:125px; overflow:auto; }
+textarea.editor { width:100%; height:250px; font:12px courier new; }
