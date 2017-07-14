@@ -12,3 +12,6 @@ RewriteRule ^member$ /member/ [L,R]
 RewriteRule ^([^.]*[^./])?$ /phpc/index.php [L]
 
 </IfModule>
+
+ErrorDocument 404 /404
+
