@@ -6,9 +6,9 @@
 
 ## Проекты
 
-[Брянский государственный технический университет](http://www.tu-bryansk.ru/){:target="_blank"}
+<a href="http://www.tu-bryansk.ru/" target="_blank">Брянский государственный технический университет</a>
 
-[Балерс](http://balers.ru/){:target="_blank"}
+<a href="http://balers.ru/" target="_blank">Балерс</a>
 
 [ООО "ТЕРРА МЕД"](http://www.terramed.net/){:target="_blank"}
 
