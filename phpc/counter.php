@@ -1,12 +1,13 @@
 <?php
 
-// PHP Compiler by Serge Igitov (Dagdamor), Version 2.4.5, Copyright 2007
+// PHP Compiler by Serge Igitov (Dagdamor), Version 2.5.2, Copyright 2010
 // Released under the LGPL License (www.gnu.org/copyleft/lesser.html)
 
 error_reporting(7);
 
 require "config.php";
 require "constant.php";
+require "language.php";
 require "function.php";
 require "database.php";
 
