@@ -48,7 +48,7 @@ function makeNumber($image, $digits, $value, $x, $y, $color=0, $align=false)
 
 $database=new Database;
 $database->modifyLine("sessions",array("getstatpng"=>"1"),"hash=".slashes($_COOKIE[PhpcSessionCookie])." AND ipaddress=".slashes(getClientAddress()));
-$database->addLine("sessions_test",array("hash"=>$_COOKIE[PhpcSessionCookie],"ipaddress"=>getClientAddress()));
+//$database->addLine("sessions_test",array("hash"=>$_COOKIE[PhpcSessionCookie],"ipaddress"=>getClientAddress()));
 
 @header("Cache-Control: no-store, no-cache, must-revalidate");
 @header("Pragma: no-cache");
